@@ -1,7 +1,10 @@
 ---
 title: "Hand-In Assignment 1 - Task 4"
-output: md_document
-output_file: "README.md"
+output: 
+  md_document: default
+  html_document: default
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_format = "all") })
 date: "2025-04-21"
 ---
 
